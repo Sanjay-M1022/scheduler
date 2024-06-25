@@ -12,4 +12,4 @@ open a termial and go the project folder and export the environmental varibles u
 `export $(grep -v '^#' .env | xargs)`
 
 Build the go application usign the command `go build`
-and notice there is a executable file created in project folder now run the file `scheduler` alternatively you can run the application without build by just running the command `go run main.go router.go`
+and notice there is a executable file created in project folder now run the file `./scheduler` alternatively you can run the application without building it by running the command `go run main.go router.go`
